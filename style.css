@@ -1,4 +1,4 @@
-. loader-wrapper {
+.loader-wrapper {
    width: 150px;
    height: 150px;
    top: 30%;
@@ -7,12 +7,12 @@
    position: absolute;
                         
 }
-. loader {
+.loader {
    width: 70%;
    height: 70%;
    border: 10px solid #ccc;
    border-radius: 100%;
-   border-top-color: #345566
+   border-top-color: #345566;
 animation: spin 2s linear infinite;
 }
 @keyframes spin {
